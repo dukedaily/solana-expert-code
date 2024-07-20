@@ -10,7 +10,7 @@ describe("day_1", () => {
 
   it("Is initialized!", async () => {
     // Add your test here.
-    const tx = await program.methods.initialize2().rpc();
+    const tx = await program.methods.initialize1().rpc();
     console.log("Your transaction signature", tx);
   });
 });
