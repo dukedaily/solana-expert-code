@@ -26,7 +26,7 @@ describe("day_2", () => {
   });
 
   // when overflow-checks = false
-  it.only("should not overflow on 100 - 200", async () => {
+  it("should not overflow on 100 - 200", async () => {
     const tx = await program.methods.overflowUnsafe(
       new anchor.BN(100),
       new anchor.BN(200)).rpc();
@@ -37,7 +37,7 @@ describe("day_2", () => {
   });
 
   // when overflow-checks = true
-  it.only("should overflow on 100 - 200", async () => {
+  it("should overflow on 100 - 200", async () => {
     const tx = await program.methods.overflowUnsafe(
       new anchor.BN(100),
       new anchor.BN(200)).rpc();
@@ -47,7 +47,7 @@ describe("day_2", () => {
   //   Error: Simulation failed.
   // Message: Transaction simulation failed: Error processing Instruction 0: Program failed to complete.
 
-  it.only("should panic when overflow", async () => {
+  it("should panic when overflow", async () => {
     const tx = await program.methods.overflowSafe(
       new anchor.BN(0),
       new anchor.BN(1)).rpc();
