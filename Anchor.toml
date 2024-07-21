@@ -5,10 +5,11 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-day_1 = "6xHvMB26amLT2RuVm4wuX4imZLcnz1LKjea9U3L58pdy"
-day_2 = "BHmuwneQbAui2zgvvWXPaefcuHJrDnSdw9pS1WeUJsdw"
-day_3 = "7q2428xGLB9oWr6Z7zPzAjmV249icm9YMiYDdQufAA9e"
-day_3_1 = "Ab8YxzsdF4WQnbzxEReNF7qa7P7Jz8zBnXjbiqRaHg4x"
+day_1 = "9qfovSZQtZ3VkgCTiDDWuMCpkPyxt3HAcHh19MiX6pGU"
+day_2 = "7HppZVRYrPDPMUg7VK6U1zsTqVvjtNbDve6k6Y7kZVoo"
+day_3 = "6jkFHps8UYy4g1cEoxWpmpgxW77DX5fV27aqRSJQA7xZ"
+day_3_1 = "DvF8picaK3cuoQgK8CdChqRm95soPUwRGSDpmbFguffL"
+day_4 = "5q5xqHhCFFtLpBSL7byhLihBdcjXZYDqjyfB8QZE4BGR"
 
 [registry]
 url = "https://api.apr.dev"

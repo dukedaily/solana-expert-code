@@ -8,7 +8,7 @@ describe("day_3", () => {
 
   const program = anchor.workspace.Day3 as Program<Day3>;
 
-  it.only("Call bodaty mcboatface", async () => {
+  it("Call bodaty mcboatface", async () => {
     const tx = await program.methods.boatyMcBoatface().rpc();
     console.log("Your transaction signature", tx);
   })

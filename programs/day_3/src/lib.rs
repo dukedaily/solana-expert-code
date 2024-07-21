@@ -1,22 +1,22 @@
 use anchor_lang::prelude::*;
 
-declare_id!("7q2428xGLB9oWr6Z7zPzAjmV249icm9YMiYDdQufAA9e");
+declare_id!("6jkFHps8UYy4g1cEoxWpmpgxW77DX5fV27aqRSJQA7xZ");
 
 #[program]
 pub mod day_3 {
     use super::*;
 
-    pub fn boaty_mc_boatface(ctx: Context<ArbitraryStr>) -> Result<()> {
+    pub fn boaty_mc_boatface(_ctx: Context<ArbitraryStr>) -> Result<()> {
         Ok(())
     }
 
-    pub fn add(ctx: Context<ArbitraryStr>, a: u64, b: u64) -> Result<()> {
+    pub fn add(_ctx: Context<ArbitraryStr>, a: u64, b: u64) -> Result<()> {
         let sum = a + b;
         msg!("Sum is {}", sum);
         Ok(())
     }
 
-    pub fn sub(ctx: Context<ArbitraryStr>, a: u64, b: u64) -> Result<()> {
+    pub fn sub(_ctx: Context<ArbitraryStr>, a: u64, b: u64) -> Result<()> {
         let difference = a - b;
         msg!("Difference is {}", difference);
         Ok(())

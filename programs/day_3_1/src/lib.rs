@@ -1,12 +1,12 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Ab8YxzsdF4WQnbzxEReNF7qa7P7Jz8zBnXjbiqRaHg4x");
+declare_id!("DvF8picaK3cuoQgK8CdChqRm95soPUwRGSDpmbFguffL");
 
 #[program]
 pub mod day_3_1 {
     use super::*;
 
-    pub fn non_empty_account_example(ctx: Context<ArbitraryStr>) -> Result<()> {
+    pub fn non_empty_account_example(_ctx: Context<ArbitraryStr>) -> Result<()> {
         Ok(())
     }
 }
