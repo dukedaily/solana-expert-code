@@ -9,7 +9,7 @@ describe("day_4", () => {
 
   const program = anchor.workspace.Day4 as Program<Day4>;
 
-  it.only("Input test too small", async () => {
+  it("Input test too small", async () => {
     try {
       const tx = await program.methods.limitRange(new anchor.BN(9)).rpc();
       console.log("Your transaction signature", tx);
@@ -24,7 +24,7 @@ describe("day_4", () => {
     }
   })
 
-  it.only("Input test too big", async () => {
+  it("Input test too big", async () => {
     try {
       const tx = await program.methods.limitRange(new anchor.BN(101)).rpc();
       console.log("Your transaction signature", tx);
@@ -38,7 +38,7 @@ describe("day_4", () => {
     }
   })
 
-  it.only("Input test require, too small", async () => {
+  it("Input test require, too small", async () => {
     try {
       const tx = await program.methods.limitRangeRequire(new anchor.BN(9)).rpc();
       console.log("Your transaction signature", tx);
@@ -53,7 +53,7 @@ describe("day_4", () => {
     }
   })
 
-  it.only("Input test require, too big", async () => {
+  it("Input test require, too big", async () => {
     try {
       const tx = await program.methods.limitRangeRequire(new anchor.BN(101)).rpc();
       console.log("Your transaction signature", tx);
@@ -67,7 +67,7 @@ describe("day_4", () => {
     }
   })
 
-  it.only("Error test funcError", async () => {
+  it("Error test funcError", async () => {
     try {
       const tx = await program.methods.funcError().rpc();
       console.log("Your transaction signature", tx);
@@ -81,7 +81,7 @@ describe("day_4", () => {
     }
   });
 
-  it.only("Error test funcOK", async () => {
+  it("Error test funcOK", async () => {
     try {
       const tx = await program.methods.funcOk().rpc();
       console.log("Your transaction signature", tx);
