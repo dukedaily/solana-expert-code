@@ -5,13 +5,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-day_1 = "5oSSkEc2gZS9mZRMsw4iyapeRtQRchnAUuiUzkeiCNqn"
-day_2 = "BGGkzgeCXkyC6xWcEyvJ8Geb9davsUQbZAkjV85tHuQD"
-day_3 = "8cK7F1Ku3aFduYUUUE79Ad5WDkQGFM6jC6pUSeiPjzeT"
-day_3_1 = "49zJroisjGYVCBnnwRav9bCGScxLqhpw4dvPGhYbfWkU"
-day_4 = "FtRZjdbYvZVW59CVSe94F6XiaahpCuEuByJqw4bH9Ray"
-day_5 = "HNdiq7jWsmQ33GPmRd95NR3Momr8pcUVx3GB7MuJMhU"
-day_6 = "BDL6WgNCiASzN1YdftWoiLvnVztz5wQ76ktsjb5xZCBj"
+day_1 = "3SHQBuvyPgzxZQNXF6Ytp6UEMjuSpZHUxoDbqqCqfhVe"
+day_2 = "FgAgmHEjmyJDvHECbdhuVw2Qjx2gM5CUfr1NzSdufhCp"
+day_3 = "B9GyFfjo3UHjBeqnzLN2ft23wT959WcHs6xJ4sskuQ82"
+day_3_1 = "9jfvbiR9tQ4mtyVS6uKVY2KLRtYjLL6zuqexRDZtZGpg"
+day_4 = "31GjTPbn8ExivJghypPHHXwERrBa1oUMzKKTZRvFcwFS"
+day_5 = "36fLt7Dzquf9czaisrnyqMumgJ6vxcD1XWoA7Qcdhpju"
+day_6 = "dnf7hYRGW5aJSW1LTBWJxgyBJFUgBzVdHfTM87ai6uB"
 test1 = "EMm23Ufno7DoB8U1Fa91EsL6b3UvyEEBqAWGqyLjBGRo"
 
 [registry]
