@@ -773,6 +773,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "day_6"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "derivative"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
