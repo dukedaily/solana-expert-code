@@ -25,4 +25,14 @@ describe("day_7", () => {
     const tx = await program.methods.cloneTest().rpc();
     console.log("You tx signature:", tx);
   })
+
+  it("should succeed test struct!", async () => {
+    const tx = await program.methods.genericTypeTest().rpc();
+    console.log("You tx signature:", tx);
+  })
+
+  it.only("should succeed test option!", async () => {
+    const tx = await program.methods.optionTest().rpc();
+    console.log("You tx signature:", tx);
+  })
 })

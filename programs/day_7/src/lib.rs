@@ -63,7 +63,35 @@ pub mod day_7 {
         msg!("s1: {:?}", s1);
         Ok(())
     }
+
+    pub fn generic_type_test(ctx: Context<Initialize>) -> Result<()> {
+        let my_values1 = MyValues {
+            foo: 42,
+            bar: "hello".to_string(),
+        };
+
+        let my_values2 = MyValues {
+            foo: true,
+            bar: [1, 2, 3],
+        };
+
+        msg!("my_values1: {:?}", my_values1);
+        msg!("my_values2: {:?}", my_values2);
+        Ok(())
+    }
 }
 
 #[derive(Accounts)]
 pub struct Initialize {}
+
+// derive the debug trait so we can print the struct to the console
+#[derive(Debug)]
+struct MyValues<T, U> {
+    foo: T,
+    bar: U,
+}
+
+enum MyResultType<T, E> {
+    Ok1(T),
+    Err1(E),
+}
