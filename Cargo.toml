@@ -1,5 +1,10 @@
 [workspace]
-members = ["programs/*", "rust_projects/day_8_1"]
+members = [
+  "programs/*", "rust_projects/day_9_1",
+  "rust_projects/day_9_2",
+  "rust_projects/day_9_2",
+  "rust_projects/day_9_3",
+]
 resolver = "2"
 
 [profile.release]
