@@ -1,5 +1,5 @@
 [workspace]
-members = ["programs/*"]
+members = ["programs/*", "rust_projects/day_8_1"]
 resolver = "2"
 
 [profile.release]
