@@ -6,6 +6,7 @@ skip-lint = false
 
 [programs.localnet]
 day_1 = "3SHQBuvyPgzxZQNXF6Ytp6UEMjuSpZHUxoDbqqCqfhVe"
+day_10 = "C7Qm8zwexesfhk4CSeEKJkasuPsUE1RPQPepsr36wkNS"
 day_2 = "FgAgmHEjmyJDvHECbdhuVw2Qjx2gM5CUfr1NzSdufhCp"
 day_3 = "B9GyFfjo3UHjBeqnzLN2ft23wT959WcHs6xJ4sskuQ82"
 day_3_1 = "9jfvbiR9tQ4mtyVS6uKVY2KLRtYjLL6zuqexRDZtZGpg"
@@ -14,7 +15,7 @@ day_5 = "36fLt7Dzquf9czaisrnyqMumgJ6vxcD1XWoA7Qcdhpju"
 day_6 = "dnf7hYRGW5aJSW1LTBWJxgyBJFUgBzVdHfTM87ai6uB"
 day_7 = "2V4BSWLCWVP5CmrxbcpKG1bqczwgirs43euQtHDJqwDa"
 day_7_1 = "DjFyT85igx13HFU7uLuqozGaPw6HiQX31PCNLThCCspf"
-day_8 = "DnAyn23aQJC3LL74G1FHwksnHCoFyefNNRchHjWgHc79"
+day_8 = "6roYSTL7e16ErEnQ9TDBYqVkkW9YCWDs3547ETibyANY"
 test1 = "EMm23Ufno7DoB8U1Fa91EsL6b3UvyEEBqAWGqyLjBGRo"
 
 [registry]
