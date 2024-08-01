@@ -44,8 +44,8 @@ mod call {
     }
 
     pub fn call_private_func() {
-        let msg = day_10::some_private_function::private_func();
-        println!("Private function: {:?}", msg);
+        // let msg = day_10::some_private_function::private_func();
+        // println!("Private function: {:?}", msg);
     }
 }
 
