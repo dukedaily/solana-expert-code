@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("dnf7hYRGW5aJSW1LTBWJxgyBJFUgBzVdHfTM87ai6uB");
+declare_id!("BnV6jJjxmxsfjrzDic4dNuz1a9Gyos18adaMgDt4a7ya");
 const MAX_POINTS1: u32 = 100_000;
 const MAX_POINTS2: u32 = 200_000;
 
