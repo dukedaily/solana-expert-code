@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("2e9RkrSUUS2b4vE5VzrkQiqtRKPTnfGXedKbcNzFLsdn");
+declare_id!("2V4BSWLCWVP5CmrxbcpKG1bqczwgirs43euQtHDJqwDa");
 
 pub fn add(a: u32, b: u32) -> u32 {
     a + b
