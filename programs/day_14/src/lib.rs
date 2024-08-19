@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("J3h97qKEjawFyr7iypKL27kutnbkTkaCuwd4szvJPYdD");
+declare_id!("559zmVS2NrnjZGpu3ALRHp2M8WRaZMGZ2rNx4STSASM6");
 
 // NOTE: Replace with you own address(Public key)
 const OWNER: &str = "HjU6xSZme7ER6Qhk841nczwXijBZ9e1GWLqdPxW6gS9w";
