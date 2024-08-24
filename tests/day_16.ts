@@ -16,17 +16,4 @@ describe("day_16", () => {
       myStorageAccount: myStorage
     }).rpc();
   })
-
-  // it("should fail two initialize twice!", async () => {
-  //   const seeds = []
-  //   const [myStorage, _bump] = anchor.web3.PublicKey.findProgramAddressSync(seeds, program.programId);
-
-  //   await program.methods.initialize().accounts({
-  //     myStorageAccount: myStorage
-  //   }).rpc();
-
-  // await program.methods.initialize().accounts({
-  //   myStorageAccount: myStorage
-  // }).rpc();
-  // })
 })
